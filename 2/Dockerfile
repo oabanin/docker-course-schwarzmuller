@@ -19,6 +19,10 @@ COPY . .
 #More like documentation
 EXPOSE 80
 
+
+#Anonymous volume
+#VOLUME ["/app/feedback"]
+
 #Dockerfile is the instruction for image
 #RUN node server.js is wrong because it means that we want start server in template
 #we only want to start the server only after container starts

@@ -1,0 +1,27 @@
+IMAGES
+docker images
+docker build -t image-name:tag .
+docker rmi image-name:tag
+
+CONTAINERS
+docker ps
+docker run -d --rm --name container-name -p 3000:80 image-name:tag
+docker run -d --rm --name container-name -p 3000:80 -v volume-name:/app/feedback image-name:tag
+docker stop container-name
+docker rm container-name
+docker logs container-name
+
+VOLUMES
+docker volume ls
+
+
+
+
+
+
+
+
+
+
+
+
