@@ -24,4 +24,5 @@ docker volume ls
 
 
 
-
+docker-compose -p outvio -f ./devops/local/outvio.yml up -d
+docker logs -f --since=10m --tail=10 outvio-api-1 | bunyan
