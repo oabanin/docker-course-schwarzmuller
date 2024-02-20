@@ -11,7 +11,7 @@ docker stop container-name
 docker rm container-name
 docker logs container-name
 
-VOLUMES
+VOLUMES  
 docker volume ls
 
 
